@@ -87,5 +87,8 @@ public class switch1 : MonoBehaviour
             r = "겨울";
         else
             r = " 잘못입력 ";
+
+        Debug.Log(r);
     }
+    
 }

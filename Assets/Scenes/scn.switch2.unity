@@ -154,7 +154,7 @@ MonoBehaviour:
   signalR: 1
   signalY: 1
   signalG: 0
-  A: 24
+  A: 39
 --- !u!4 &15410380
 Transform:
   m_ObjectHideFlags: 0
