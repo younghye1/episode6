@@ -37,7 +37,7 @@ public class switch3 : MonoBehaviour
         }
 
        //GetComponent<MeshRenderer>().material.color = col;
-        GetComponent<MeshRenderer>().material.SetFloat("_Color", col );
+        GetComponent<MeshRenderer>().material.SetColor("_Color", col );
         GetComponent<MeshRenderer>().material.SetFloat("_Fade", (float) hp/100 );
     }
 
