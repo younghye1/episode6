@@ -34,7 +34,6 @@ public class TileGenerator : MonoBehaviour
         // Instantiate(tilePrefab, new UnityEngine.Vector3(h,f,v), quaternion.identity);
         // }
 
-GameObject Empty= 
         for (int h = 0; h < horzCnt; h++)
         {
             for (int f = 0; f < floorCnt; f++)
@@ -43,7 +42,6 @@ GameObject Empty=
                 {
 
                     Instantiate(tilePrefab, new UnityEngine.Vector3(gap * h, gap * f, gap * v), quaternion.identity);
-                object.transform.Setparent(Empty.transform);
                 }
             }
         }
